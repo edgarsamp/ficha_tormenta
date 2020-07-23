@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="51.172mm" height="51.172mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1498.55 1498.55"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="647" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="700">
+	<font-face 
+		font-family="El Messiri">
+		<font-face-src>
+			<font-face-name name="El Messiri Bold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="C" horiz-adv-x="678" d="M367.005 -20c-68.6671,0 -127.836,14.8298 -177.507,44.5009 -49.6595,29.6711 -87.5014,70.1673 -113.503,121.5 -26.0012,51.3329 -38.996,109.336 -38.996,173.999 0,66.6705 14.3335,127.501 43.0006,182.504 28.6671,54.9913 68.1708,98.3266 118.5,129.994 50.3289,31.6676 106.497,47.5014 168.505,47.5014 58.6613,0 107.663,-7.50144 146.994,-22.5043 39.3306,-14.9913 69.3364,-34.4951 90.0058,-58.4997 11.9908,-15.326 19.3306,-34.3335 21.9965,-56.9994 2.6659,-22.6659 3.99308,-54.3335 3.99308,-94.9913l-29.9942 0c-12.6717,61.3272 -35.9954,107.998 -70.0058,140 -33.9988,31.9908 -78.3266,47.9977 -132.995,47.9977 -67.9977,0 -121.662,-24.0046 -161.004,-72.0023 -39.3306,-47.9977 -58.996,-129.002 -58.996,-243.001 0,-84.6624 18.0035,-155.003 53.9988,-210.998 36.0069,-56.0069 91.3329,-84.0046 166.001,-84.0046 46.6705,0 89.498,12.337 128.505,36.9994 38.996,24.674 70.4905,60 94.4951,106.001l35.0029 -26.9937c-32.0023,-56.0069 -70.6751,-96.8379 -116.007,-122.504 -45.3318,-25.6665 -102.666,-38.4997 -171.991,-38.4997z"/>
+   <glyph unicode="T" horiz-adv-x="575" d="M232.002 615.003l-70.9983 0c-37.3341,0 -65.8396,-9.33641 -85.5049,-27.9977 -19.6653,-18.6728 -29.498,-49.3364 -29.498,-92.0023l-30.0058 0 0 84.9971c0,53.3295 28.3324,80 85.0087,80l469.994 0 0 -44.9971 -209.002 0 0 -615.003 -129.994 0 0 615.003z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"El Messiri";font-variant:normal;font-style:normal;font-weight:bold;src:url("#FontID0") format(svg)}
+    .fil3 {fill:#373435}
+    .fil0 {fill:#DB9D40}
+    .fil2 {fill:#6B4900;fill-opacity:0.188235}
+    .fil1 {fill:#FEFEFE;fill-opacity:0.329412}
+    .fnt0 {font-weight:bold;font-size:253.75px;font-family:'El Messiri'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2289464909920">
+   <g>
+    <circle class="fil0" cx="749.27" cy="749.27" r="749.27"/>
+    <path class="fil1" d="M749.27 0c413.81,0 749.27,335.46 749.27,749.27 0,413.81 -335.46,749.27 -749.27,749.27 -413.81,0 -749.27,-335.46 -749.27,-749.27 0,-413.81 335.46,-749.27 749.27,-749.27zm0 120.54c347.24,0 628.74,281.49 628.74,628.74 0,347.24 -281.49,628.74 -628.74,628.74 -347.24,0 -628.74,-281.49 -628.74,-628.74 0,-347.24 281.49,-628.74 628.74,-628.74z"/>
+    <path class="fil2" d="M1279.09 219.46c135.59,135.59 219.46,322.91 219.46,529.82 0,413.81 -335.46,749.27 -749.27,749.27 -206.91,0 -394.23,-83.87 -529.82,-219.46l1059.64 -1059.64z"/>
+   </g>
+   <text x="608.44" y="1282.5"  class="fil3 fnt0">TC</text>
+  </g>
+ </g>
+</svg>

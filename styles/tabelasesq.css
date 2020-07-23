@@ -1,0 +1,86 @@
+.content-armas{
+
+    height: 25%;
+    min-height: 110px;
+    background-color: #E6E7E8;
+
+    display: grid;
+    grid-template-columns: 40px 1fr;
+
+
+}
+
+.content-armas .espada{
+    height: 100%;
+
+    background: url(../assents/espada.svg) no-repeat;
+    background-size: contain;
+
+    margin-left: -10px;
+
+    z-index: 1000;
+}
+
+.content-armas .armas{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.content-armas .armas input{
+    border: none;
+    text-align: center;
+    width: 12.5%;
+    margin-top: 4px;
+}
+#arma{
+    width: 34.5%;
+    margin-left: -10px;
+}
+
+.magi-poder{
+    background-color: #E6E7E8;
+    height: 73%;
+    margin-top: 6px;
+    padding-top: 6px;
+}
+
+
+.content-magias{
+    background-color: #FEFEFE;
+    width: 97%;
+    display: flex;
+
+    margin: auto;
+
+}
+
+.content-magias .grimorio{
+    height: 90px;
+    width: 100px;
+    background: url(../assents/grimorio.svg) no-repeat;
+    background-size: contain;
+    margin-top: 4px;
+    margin-left: 4px;
+
+}
+
+.content-magias .magias{
+    width: 100%;
+    text-align: center;
+    line-height: 97px;
+}
+
+.habi{
+    height: calc(45% + 11px);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(8, 1fr);
+}
+.habi input{
+    width: 95%;
+    border: none;
+    border-radius: 0%;
+    margin: auto;
+    margin-top: 7px;
+    text-align: center;
+}

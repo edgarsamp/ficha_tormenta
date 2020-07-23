@@ -1,0 +1,40 @@
+.dir{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(14, 24.5px);
+    grid-row-gap:5px;
+    background-color: #E6E7E8;
+}
+
+.dir h3{
+    font-weight: 10px;
+}
+
+.dir .atr{
+    display: grid;
+    margin-top: 5px;
+    margin-left: 2.5px;
+    margin-bottom: 5px;
+    margin-right: 2.5px;
+}
+
+.dir .atr>p{
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.dir .esquerda{
+    text-align: right;
+    grid-template-columns: 70fr 30fr;
+}
+.dir .direita{
+    text-align: left;
+    grid-template-columns:30fr 70fr;
+}
+
+
+.dir .atr .valor{
+    height: 80%;
+    width: 100%;
+    text-align: center;
+}

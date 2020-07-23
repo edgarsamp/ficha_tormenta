@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'El Messiri', sans-serif;
+
+}
+
+body{
+    background-color: #8395A7;
+}
+
+.ficha{
+    min-height: 95vh;
+    width: 95vw;
+    background-color: #E6E7E8;
+
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 20px 20px 0 0;
+    
+    max-width: 1400px;
+
+}
+.ficha header{
+    height: 180px;
+    width: 100%;
+    background-color: #222F3E;
+
+    border-radius: 20px 20px 0 0;
+    
+    z-index: 0;
+
+}
+
+.for{
+    background-color: #ED6B6B;
+}
+.des{
+    background-color: #FFB269;
+}
+.con{
+    background-color: #35B595;
+}
+.int{
+    background-color: #6EAFFF;
+}
+.sab{
+    background-color: #F582E6;
+}
+.car{
+    background-color: #9A85C4;
+}
+

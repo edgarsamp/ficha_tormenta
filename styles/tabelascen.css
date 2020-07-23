@@ -1,0 +1,124 @@
+.content-defesas{
+
+    height: 12.5%;
+    width: 100%;
+    min-height: 54px;
+    background-color: #E6E7E8;
+
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 45px;
+
+}
+.content-defesas .escudo{
+    height: 54px;
+    width: 54px;
+
+    background: url(../assents/escudo.svg) no-repeat;
+    background-size: contain;
+
+    margin-left: -8px;
+    z-index: 1000;
+}
+
+.content-defesas .defesas{
+    width: 95%;
+    margin: auto;
+}
+.content-defesas .defesas input{
+    border: none;
+    text-align: center;
+    width: 19%;
+    margin-top: 4px;
+}
+#armadura,
+#escudo{
+    width: 58%;
+}
+
+.inv{
+    height: 86.5%;
+    width: 100%;
+
+    margin-top: 6px;
+    background: #E6E7E8;
+}
+.inv .dinheiro{
+    height: 80px;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.inv .dinheiro .mochila{
+    height: 65px;
+    width: 70px;
+
+    background: url(../assents/mochila.svg) no-repeat;
+    background-size: contain;
+
+    margin: auto;
+    margin-left: 10px;
+}
+
+.inv .dinheiro h1{
+    margin-top: 11px;
+    margin-left: 8px;
+    font-size: 19px;
+}
+
+.inv .dinheiro .to{
+    height: 50px;
+    width: 70px;
+
+    background: url(../assents/TO.svg) no-repeat;
+    background-size: contain;
+
+    margin: auto;
+    margin-left: 15px;
+}
+.inv .dinheiro .td{
+    height: 50px;
+    width: 70px;
+
+    background: url(../assents/T$.svg) no-repeat;
+    background-size: contain;
+
+    margin: auto;
+    margin-left: -7px;
+}
+.inv .dinheiro .tc{
+    height: 50px;
+    width: 70px;
+
+    background: url(../assents/TC.svg) no-repeat;
+    background-size: contain;
+
+    margin: auto;
+    margin-left: -7px;
+}
+
+.inv .itens{
+    height: calc(95% - 56px);
+    width: 95%;
+
+    margin: auto;
+    margin-top: -6px;
+}
+
+#item{
+    width: 100%;
+    border: 0;
+
+    font-size: 13.33px;
+
+    text-align: center;
+
+    background-color: #FEFEFE;
+    margin: auto;
+    margin-top: 3px;
+
+}
+
+

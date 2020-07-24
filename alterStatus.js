@@ -6,9 +6,11 @@ function alterarNome(){
     renderizar()
 }
 function alterarNivel(){
-    var novoNivel = prompt("Qual é o seu novo nível?")
+    var novoNivel = prompt("Oque é você?", `${personagem.raca} ${personagem.classe} ${personagem.level}`)
     if (novoNivel != null) {
-        personagem.level = novoNivel
+        personagem.raca = novoNivel.split(" ")[0]
+        personagem.classe = novoNivel.split(" ")[1]
+        personagem.level = novoNivel.split(" ")[2]
     }
     renderizar()
 }

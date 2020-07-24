@@ -10,7 +10,7 @@
     grid-template-columns: 1fr 45px;
 
 }
-.content-defesas .escudo{
+.content-defesas .escudo-icon{
     height: 54px;
     width: 54px;
 
@@ -24,15 +24,30 @@
 .content-defesas .defesas{
     width: 95%;
     margin: auto;
+    font-size: 13.3333px;
 }
-.content-defesas .defesas input{
+
+.armad div,
+.esc div{
+    background-color: #a0ffa8;
+}
+
+.content-defesas .armad div+div,
+.content-defesas .esc div+div,
+.content-defesas .defesas input+input{
     border: none;
     text-align: center;
     width: 19%;
     margin-top: 4px;
+    display: inline-block;
+
 }
-#armadura,
-#escudo{
+.armadura,
+.escudo{
+    display: inline-block;
+    border: none;
+    text-align: center;
+    margin-top: 4px;
     width: 58%;
 }
 
@@ -107,7 +122,7 @@
     margin-top: -6px;
 }
 
-#item{
+.item{
     width: 100%;
     border: 0;
 
@@ -118,7 +133,14 @@
     background-color: #FEFEFE;
     margin: auto;
     margin-top: 3px;
+}
 
+.itens div{
+    background-color: rgb(160, 255, 168);
+    margin: auto;
+    margin-top: 3px;
+
+    font-size: 13.333px;
 }
 
 

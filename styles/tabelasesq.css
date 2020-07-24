@@ -7,7 +7,6 @@
     display: grid;
     grid-template-columns: 40px 1fr;
 
-
 }
 
 .content-armas .espada{
@@ -25,16 +24,28 @@
     margin-top: auto;
     margin-bottom: auto;
 }
-.content-armas .armas input{
+
+.content-armas .armas input + input,
+.content-armas .arma div + div{
     border: none;
     text-align: center;
     width: 12.5%;
     margin-top: 4px;
+    font-size: 13.3333px;
 }
-#arma{
+#arma, .arma_nome{
+    border: none;
     width: 34.5%;
     margin-left: -10px;
+    text-align: center;
+    font-size: 13.3333px;
 }
+
+.content-armas .arma div{
+    display: inline-block;
+    background-color: #a0ffa8;
+}
+
 
 .magi-poder{
     background-color: #E6E7E8;
@@ -76,11 +87,16 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(8, 1fr);
 }
-.habi input{
+.habi div{
+    background-color: #a0ffa8;
+}
+
+.habi .poder{
     width: 95%;
     border: none;
     border-radius: 0%;
     margin: auto;
     margin-top: 7px;
     text-align: center;
+    font-size: 13.333px;
 }

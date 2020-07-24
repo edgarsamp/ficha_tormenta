@@ -20,7 +20,7 @@
     <header></header>
 
         <div class="atributos">
-            <div class="foto">
+            <div class="foto" onclick="savePersonagem()">
                 <span>
 
                 </span>
@@ -28,68 +28,43 @@
 
             <div class="status">
                 <div class="desc">
-                    <h1>Jorginho Teixeira</h1>
-                    <h2>Humano, Clérigo 20</h2>
-                    <h2>99999 xp</h2>
+
 
                 </div>
                 <div class="pv">
-                    <h1>999</h1>
-                    <h2>999</h2>
                 </div>
                 <div class="pm">
-                    <h1>999</h1>
-                    <h2>999</h2>
                 </div>
                 <div class="arm">
-                    <h1>10</h1>
                 </div>
                 <div class="desl">
-                    <h1>15 m</h1>
                 </div>
             </div>
 
             <div class="valores-atributos">
                 <div class="atr">
                     <h3>FOR</h3>
-                    <div class="valor for">
-                        <div class="valor-mod">+10</div>
-                        <div class="valor-atr">99</div>
-                    </div>
+                    <div class="valor for"></div>
                 </div>
                 <div class="atr">
                     <h3>DES</h3>
-                    <div class="valor des">
-                        <div class="valor-mod">+10</div>
-                        <div class="valor-atr">99</div>
-                    </div>
+                    <div class="valor des"></div>
                 </div>
                 <div class="atr">
                     <h3>CON</h3>
-                    <div class="valor con">
-                        <div class="valor-mod">+10</div>
-                        <div class="valor-atr">99</div>
-                    </div>
+                    <div class="valor con"></div>
                 </div>
                 <div class="atr">
                     <h3>INT</h3>
-                    <div class="valor int">
-                        <div class="valor-mod">+10</div>
-                        <div class="valor-atr">99</div>
-                    </div>
+                    <div class="valor int"></div>
                 </div>
                 <div class="atr">
                     <h3>SAB</h3>
-                    <div class="valor sab">
-                        <div class="valor-mod">+10</div>
-                        <div class="valor-atr">99</div>
-                    </div>
+                    <div class="valor sab"></div>
                 </div>
                 <div class="atr">
                     <h3>CAR</h3>
                     <div class="valor car">
-                        <div class="valor-mod">+10</div>
-                        <div class="valor-atr">99</div>
                     </div>
                 </div>
                 
@@ -101,39 +76,6 @@
                 <div class="content-armas">
                     <div class="espada"></div>
                     <div class="armas">
-                        <div class="arma">
-                            <input type="text" id="arma" placeholder="Arma">
-                            <input type="text" id="bonus" placeholder="Bonus">
-                            <input type="text" id="dano" placeholder="Dano">
-                            <input type="text" id="crít." placeholder="Crít">
-                            <input type="text" id="tipo" placeholder="Tipo">
-                            <input type="text" id="alc." placeholder="Alc">
-                        </div>
-                        <div class="arma">
-                            <input type="text" id="arma" placeholder="Arma">
-                            <input type="text" id="bonus" placeholder="Bonus">
-                            <input type="text" id="dano" placeholder="Dano">
-                            <input type="text" id="crít." placeholder="Crít">
-                            <input type="text" id="tipo" placeholder="Tipo">
-                            <input type="text" id="alc." placeholder="Alc">
-                        </div>
-                        <div class="arma">
-                            <input type="text" id="arma" placeholder="Arma">
-                            <input type="text" id="bonus" placeholder="Bonus">
-                            <input type="text" id="dano" placeholder="Dano">
-                            <input type="text" id="crít." placeholder="Crít">
-                            <input type="text" id="tipo" placeholder="Tipo">
-                            <input type="text" id="alc." placeholder="Alc">
-                        </div>
-                        <div class="arma">
-                            <input type="text" id="arma" placeholder="Arma">
-                            <input type="text" id="bonus" placeholder="Bonus">
-                            <input type="text" id="dano" placeholder="Dano">
-                            <input type="text" id="crít." placeholder="Crít">
-                            <input type="text" id="tipo" placeholder="Tipo">
-                            <input type="text" id="alc." placeholder="Alc">
-                        </div>
-
                     </div>
                 </div>
                 <div class="magi-poder">
@@ -141,23 +83,8 @@
                         <div class="content-magias">
                             <div class="grimorio"></div>
                             <div class="magias"><h1>Magias</h1></div>
-
                     </div>
                     <div class="habi">
-                        <input type="text" id="po-habi" placeholder="Poder / Habilidade">
-                        <input type="text" id="po-habi" placeholder="Poder / Habilidade">
-                        <input type="text" id="po-habi" placeholder="Poder / Habilidade">
-                        <input type="text" id="po-habi" placeholder="Poder / Habilidade">
-                        <input type="text" id="po-habi" placeholder="Poder / Habilidade">
-                        <input type="text" id="po-habi" placeholder="Poder / Habilidade">
-                        <input type="text" id="po-habi" placeholder="Poder / Habilidade">
-                        <input type="text" id="po-habi" placeholder="Poder / Habilidade">
-                        <input type="text" id="po-habi" placeholder="Poder / Habilidade">
-                        <input type="text" id="po-habi" placeholder="Poder / Habilidade">
-                        <input type="text" id="po-habi" placeholder="Poder / Habilidade">
-                        <input type="text" id="po-habi" placeholder="Poder / Habilidade">
-                        <input type="text" id="po-habi" placeholder="Poder / Habilidade">
-                        <input type="text" id="po-habi" placeholder="Poder / Habilidade">
                     </div>
                 </div>
             </div>
@@ -165,216 +92,35 @@
                 <div class="content-defesas">
                     <div class="defesas">
                         <div class="armad">
-                            <input type="text" id="armadura" placeholder="Armadura">
+                            <input type="text" class="armadura" id="armadura1" placeholder="Armadura">
                             <input type="text" id="bonus" placeholder="Bônus">
                             <input type="text" id="pen" placeholder="Pen.">
                         </div>
                         <div class="esc">
-                            <input type="text" id="escudo" placeholder="Escudo">
+                            <input type="text" class="escudo" id="escudo" placeholder="Escudo">
                             <input type="text" id="bonus" placeholder="Bônus">
                             <input type="text" id="pen" placeholder="Pen.">
                         </div>
                     </div>
-                    <div class="escudo"></div>
+                    <div class="escudo-icon"></div>
 
                 </div>
                 <div class="inv">
                     <div class="dinheiro">
-                        <div class="mochila"></div>
-                        <div class="to"><h1>1500</h1></div>
-                        <div class="td"><h1>1500</h1></div>
-                        <div class="tc"><h1>1500</h1></div>
+
                     </div>
                     <div class="itens">
-                        <div id="item">adasd</div>
-                        <input type="text" id="item" placeholder="Item">
-                        <input type="text" id="item" placeholder="Item">
-                        <input type="text" id="item" placeholder="Item">
-                        <input type="text" id="item" placeholder="Item">
-                        <input type="text" id="item" placeholder="Item">
-                        <input type="text" id="item" placeholder="Item">
-                        <input type="text" id="item" placeholder="Item">
-                        <input type="text" id="item" placeholder="Item">
-                        <input type="text" id="item" placeholder="Item">
-                        <input type="text" id="item" placeholder="Item">
+
                     </div>
                 </div>
             </div>
             <div class="dir">
-                <div class="atr esquerda">
-                    <p>Atletismo</p>
-                    <div class="valor for">
-                        <h3>99</h3>
-                    </div>
-                </div>
-                <div class="atr direita">
-                    <div class="valor for">
-                        <h3>99</h3>
-                    </div>
-                    <p>Luta</p>
-                </div>
-                <div class="atr esquerda">
-                    <p>Acrobacia</p>
-                    <div class="valor des">
-                        <h3>99</h3>
-                    </div>
-                </div>
-                <div class="atr direita">
-                    <div class="valor des">
-                        <h3>99</h3>
-                    </div>
-                    <p>Ladinagem</p>
-                </div>
-                <div class="atr esquerda">
-                    <p>Cavalgar</p>
-                    <div class="valor des">
-                        <h3>99</h3>
-                    </div>
-                </div>
-                <div class="atr direita">
-                    <div class="valor des">
-                        <h3>99</h3>
-                    </div>
-                    <p>Pontaria</p>
-                </div>
-                <div class="atr esquerda">
-                    <p>Furtividade</p>
-                    <div class="valor des">
-                        <h3>99</h3>
-                    </div>
-                </div>
-                <div class="atr direita">
-                    <div class="valor des">
-                        <h3>99</h3>
-                    </div>
-                    <p>Pilotagem</p>
-                </div>
-                <div class="atr esquerda">
-                    <p>Iniciativa</p>
-                    <div class="valor des">
-                        <h3>99</h3>
-                    </div>
-                </div>
-                <div class="atr direita">
-                    <div class="valor des">
-                        <h3>99</h3>
-                    </div>
-                    <p>Reflexos</p>
-                </div>
-                <div class="atr esquerda">
-                    <p>Fortitude</p>
-                    <div class="valor con">
-                        <h3>99</h3>
-                    </div>
-                </div>
-                <div class="atr direita">
-                    <div class="valor int">
-                        <h3>99</h3>
-                    </div>
-                    <p>Investigação</p>
-                </div>
-                <div class="atr esquerda">
-                    <p>Conhecimento</p>
-                    <div class="valor int">
-                        <h3>99</h3>
-                    </div>
-                </div>
-                <div class="atr direita">
-                    <div class="valor int">
-                        <h3>99</h3>
-                    </div>
-                    <p>Misticismo</p>
-                </div>
-                <div class="atr esquerda">
-                    <p>Guerra</p>
-                    <div class="valor int">
-                        <h3>99</h3>
-                    </div>
-                </div>
-                <div class="atr direita">
-                    <div class="valor int">
-                        <h3>99</h3>
-                    </div>
-                    <p>Nobreza</p>
-                </div>
-                <div class="atr esquerda">
-                    <p>Cura</p>
-                    <div class="valor sab">
-                        <h3>99</h3>
-                    </div>
-                </div>
-                <div class="atr direita">
-                    <div class="valor sab">
-                        <h3>99</h3>
-                    </div>
-                    <p>Religião</p>
-                </div>
-                <div class="atr esquerda">
-                    <p>Intuição</p>
-                    <div class="valor sab">
-                        <h3>99</h3>
-                    </div>
-                </div>
-                <div class="atr direita">
-                    <div class="valor sab">
-                        <h3>99</h3>
-                    </div>
-                    <p>Sobrevivência</p>
-                </div>
-                <div class="atr esquerda">
-                    <p>Percepção</p>
-                    <div class="valor sab">
-                        <h3>99</h3>
-                    </div>
-                </div>
-                <div class="atr direita">
-                    <div class="valor sab">
-                        <h3>99</h3>
-                    </div>
-                    <p>Vontade</p>
-                </div>
-                <div class="atr esquerda">
-                    <p>Adestramento</p>
-                    <div class="valor car">
-                        <h3>99</h3>
-                    </div>
-                </div>
-                <div class="atr direita">
-                    <div class="valor car">
-                        <h3>99</h3>
-                    </div>
-                    <p>Enganação</p>
-                </div>
-                <div class="atr esquerda">
-                    <p>Atuação</p>
-                    <div class="valor car">
-                        <h3>99</h3>
-                    </div>
-                </div>
-                <div class="atr direita">
-                    <div class="valor car">
-                        <h3>99</h3>
-                    </div>
-                    <p>Intimidação</p>
-                </div>
-                <div class="atr esquerda">
-                    <p>Diplomacia</p>
-                    <div class="valor car">
-                        <h3>99</h3>
-                    </div>
-                </div>
-                <div class="atr direita">
-                    <div class="valor car">
-                        <h3>99</h3>
-                    </div>
-                    <p>Jogatina</p>
-                </div>
                
             </div>
         </div>
-
     </div>
-
     
+    <script src="javascript.js"></script>
+    <script src="alterStatus.js"></script>
 </body>
 </html>

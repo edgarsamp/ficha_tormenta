@@ -1,13 +1,10 @@
 .tabelas .esq .content-armas{
-
     height: 25%;
     min-height: 110px;
     background-color: #E6E7E8;
 
     display: grid;
     grid-template-columns: 40px 1fr;
-
-
 }
 
 .tabelas .esq .content-armas .espada{
@@ -22,8 +19,14 @@
 }
 
 .tabelas .esq .content-armas .armas{
-    margin-top: auto;
+    margin-top: 5px;
     margin-bottom: auto;
+    height: 22%;
+}
+.tabelas .esq .content-armas .armas .arma div{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .tabelas .esq .content-armas .armas input{
     border: none;

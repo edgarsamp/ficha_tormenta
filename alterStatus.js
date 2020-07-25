@@ -79,7 +79,6 @@ function alterarAtr(mod){
 }
 function alterarDinheiro(moeda){
     var altMoe = parseInt(prompt(`Quanto foi a alteração de seus ${moeda}?`))
-    console.log(altMoe)
 
     if(altMoe > -Infinity){
         switch (moeda) {
@@ -99,7 +98,6 @@ function alterarDinheiro(moeda){
     renderizar()
 }
 function alterarPericia(i){
-    console.log(nomePericias[i])
     var altPericia = parseInt(prompt(`Qual é o seu novo valor de ${nomePericias[i]}?`))
     if (altPericia > -Infinity) {
         personagem.pericias[i] = altPericia

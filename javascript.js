@@ -1,4 +1,4 @@
-nomePericias = ["Atletismo", "Luta", "Acrobacia", "Ladinagem", "Cavalgar", "Pontaria", "Furtividade", "Pilotagem", "Iniciativa", "Reflexos", "Fortitude", "Investigação", "Conhecimento", "Misticismo", "Guerra", "Nobreza", "Cura", "Religião", "Intuição", "Sobrevivência", "Percepção", "Vontade", "Adestramento", "Enganação", "Atuação", "Intimidação", "Diplomacia", "Jogatina"]
+nomePericias = ["Atletismo", "Luta", "Acrobacia*", "Ladinagem*", "Cavalgar", "Pontaria", "Furtividade*", "Pilotagem", "Iniciativa", "Reflexos", "Fortitude", "Investigação", "Conhecimento", "Misticismo", "Guerra", "Nobreza", "Cura", "Religião", "Intuição", "Sobrevivência", "Percepção", "Vontade", "Adestramento", "Enganação", "Atuação", "Intimidação", "Diplomacia", "Jogatina"]
 atriPericias = [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5]
 atributosVetor = ["for", "des", "con", "int", "sab", "car"]
 
@@ -26,7 +26,7 @@ personagem = JSON.parse(localStorage.getItem("personagem")) || {
     },
 
     itens: ["", "", "", "", "", "", "", "", "", "", "" ],
-    poder: ["", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+    poder: ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
 
     armas:[
         {arma: "", bonus: "", dano: "", crit: "", tipo: "", alc: ""},

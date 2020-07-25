@@ -11,12 +11,9 @@
 
 .content-armas .espada{
     height: 100%;
-
     background: url(../assents/espada.svg) no-repeat;
     background-size: contain;
-
-    margin-left: -10px;
-
+    margin-left: -5px;
     z-index: 1000;
 }
 
@@ -41,9 +38,23 @@
     font-size: 13.3333px;
 }
 
+.content-armas .arma{
+
+    margin-bottom: -2px;
+}
 .content-armas .arma div{
     display: inline-block;
     background-color: #a0ffa8;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: -9px;
+}
+
+.tabelas .esq .content-armas .armas{
+    margin-top: 5px;
+    margin-bottom: auto;
+    height: 22%;
 }
 
 
@@ -89,13 +100,19 @@
 }
 .habi div{
     background-color: #a0ffa8;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: -9px;
+    height: calc(100% - 8px);
 }
 
 .habi .poder{
     width: 95%;
     border: none;
     border-radius: 0%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 7px;
     text-align: center;
     font-size: 13.333px;

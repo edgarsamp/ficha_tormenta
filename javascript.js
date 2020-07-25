@@ -2,8 +2,43 @@ nomePericias = ["Atletismo", "Luta", "Acrobacia*", "Ladinagem*", "Cavalgar", "Po
 atriPericias = [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5]
 atributosVetor = ["for", "des", "con", "int", "sab", "car"]
 
-personagem = {"nome":"Grornn","raca":"Osteon","classe":"Clérigo","level":"2","xp":2000,"pv_max":24,"pv_atual":0,"pm_max":13,"pm_atual":0,"armadura":15,"deslo":"9 m","atributos":[9,14,15,13,16,8],"modificadores":[-1,2,2,1,3,-1],"pericias":[-1,1,1,1,2,2,1,3,2,2,2,1,3,3,1,1,3,5,3,5,5,5,-1,-1,-1,-1,-1,-1],"dinheiro":{"TO":0,"TD":25,"TC":0},"itens":["Mochila","Saco de mimi","Kit","","","","","","","",""],"poder":["Inflingir ferimentos","Visão no escuro + esc","Profanar","Imune a doenças","Compressão","Não fadiga, sangra,enven,come,res","Despedaçar","Manto da penumbra (esc)","Arma espiritual","Busca interior","Caminhos da natureza","Lobo soltário","Carícia sombria",""],"armas":[{"arma":"Foice","bonus":"","dano":"1d6","crit":"x3","tipo":"Cort","alc":"Curto"},{"arma":"","bonus":"","dano":"","crit":"","tipo":"","alc":""},{"arma":"","bonus":"","dano":"","crit":"","tipo":"","alc":""},{"arma":"","bonus":"","dano":"","crit":"","tipo":"","alc":""}],"armaduras":[{"name":"Couro batido","bonus":"+3","pen":"-1"},{"name":"","bonus":"","pen":""}]}
+personagem = JSON.parse(localStorage.getItem("personagem")) || {
+    nome: "Nome do personagem",
+    raca: "Raça",
+    classe: "Classe",
+    level: 0,
+    xp: 0,
+    pv_max: 00,
+    pv_atual: 00,
+    pm_max: 00,
+    pm_atual: 00,
+    armadura: 15,
+    deslo: "12 m",
 
+    atributos: [0,0,0,0,0,0],
+    modificadores: [0,0,0,0,0,0],
+    pericias:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+
+    dinheiro: {
+        TO: 100,
+        TD: 100,
+        TC: 100
+    },
+
+    itens: ["", "", "", "", "", "", "", "", "", "", "" ],
+    poder: ["", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+
+    armas:[
+        {arma: "", bonus: "", dano: "", crit: "", tipo: "", alc: ""},
+        {arma: "", bonus: "", dano: "", crit: "", tipo: "", alc: ""},
+        {arma: "", bonus: "", dano: "", crit: "", tipo: "", alc: ""},
+        {arma: "", bonus: "", dano: "", crit: "", tipo: "", alc: ""}
+    ],
+    armaduras:[
+        {name: "", bonus: "", pen: ""},
+        {name: "", bonus: "", pen: ""}
+    ]
+}
 function savePersonagem(){
     JSON
     localStorage.setItem("personagem", JSON.stringify(personagem))

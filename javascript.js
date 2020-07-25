@@ -2,7 +2,7 @@ nomePericias = ["Atletismo", "Luta", "Acrobacia*", "Ladinagem*", "Cavalgar", "Po
 atriPericias = [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5]
 atributosVetor = ["for", "des", "con", "int", "sab", "car"]
 
-personagem = JSON.parse(localStorage.getItem("personagem")) || personagem = {
+personagem = JSON.parse(localStorage.getItem("personagem")) || {
     nome: "Vhein Kha'h",
     raca: "Minotauro",
     classe: "Cavaleiro",

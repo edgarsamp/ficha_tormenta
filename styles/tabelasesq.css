@@ -92,11 +92,11 @@
 }
 
 .habi{
-    height: calc(45% + 11px);
-
+    height: calc(60% + 11px);
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 1fr);
 }
 .habi div{
     background-color: #a0ffa8;

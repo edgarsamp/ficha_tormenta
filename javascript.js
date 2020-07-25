@@ -39,6 +39,13 @@ personagem = JSON.parse(localStorage.getItem("personagem")) || {
         {name: "Pele dura", bonus: "1", pen: "0"}
     ]
 }
+
+function saveFotoPersonagem(){
+    savePersonagem()
+    console.log("oi")
+    window.alert("Personagem salvo!")
+}
+
 function savePersonagem(){
     JSON
     localStorage.setItem("personagem", JSON.stringify(personagem))

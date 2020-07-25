@@ -2,41 +2,41 @@ nomePericias = ["Atletismo", "Luta", "Acrobacia*", "Ladinagem*", "Cavalgar", "Po
 atriPericias = [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5]
 atributosVetor = ["for", "des", "con", "int", "sab", "car"]
 
-personagem = JSON.parse(localStorage.getItem("personagem")) || {
-    nome: "Nome do personagem",
-    raca: "Raça",
-    classe: "Classe",
-    level: 0,
-    xp: 0,
-    pv_max: 00,
-    pv_atual: 00,
-    pm_max: 00,
-    pm_atual: 00,
-    armadura: 15,
-    deslo: "12 m",
+personagem = JSON.parse(localStorage.getItem("personagem")) || personagem = {
+    nome: "Vhein Kha'h",
+    raca: "Minotauro",
+    classe: "Cavaleiro",
+    level: 2,
+    xp: 2000,
+    pv_max: 28,
+    pv_atual: 28,
+    pm_max: 6,
+    pm_atual: 6,
+    armadura: 14,
+    deslo: "9 m",
 
-    atributos: [0,0,0,0,0,0],
-    modificadores: [0,0,0,0,0,0],
+    atributos: [20,13,17,9,6,13],
+    modificadores: [5,1,3,-1,-2,1],
     pericias:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 
     dinheiro: {
-        TO: 100,
-        TD: 100,
-        TC: 100
+        TO: 00,
+        TD: 20,
+        TC: 00
     },
 
     itens: ["", "", "", "", "", "", "", "", "", "", "" ],
-    poder: ["", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+    poder: ["Faro apurado", "Medo de altura", "Código de batalha", "Baluarte", "Duelo", "Ataque podemoso", "Fúria divina", "Olhar amedrontador", "Tropas Duyshidakk", "", "", "", "", ""],
 
     armas:[
-        {arma: "", bonus: "", dano: "", crit: "", tipo: "", alc: ""},
-        {arma: "", bonus: "", dano: "", crit: "", tipo: "", alc: ""},
+        {arma: "Machado de guerra", bonus: "+0", dano: "1d12", crit: "3x", tipo: "Corta.", alc: "1,5m"},
+        {arma: "Chifre", bonus: "+0", dano: "1d6", crit: "2x", tipo: "Perfu.", alc: "1,5m"},
         {arma: "", bonus: "", dano: "", crit: "", tipo: "", alc: ""},
         {arma: "", bonus: "", dano: "", crit: "", tipo: "", alc: ""}
     ],
     armaduras:[
-        {name: "", bonus: "", pen: ""},
-        {name: "", bonus: "", pen: ""}
+        {name: "Couro batido", bonus: "3", pen: "-1"},
+        {name: "Pele dura", bonus: "1", pen: "0"}
     ]
 }
 function savePersonagem(){

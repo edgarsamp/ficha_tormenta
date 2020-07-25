@@ -42,7 +42,6 @@ personagem = JSON.parse(localStorage.getItem("personagem")) || {
 
 function saveFotoPersonagem(){
     savePersonagem()
-    console.log("oi")
     window.alert("Personagem salvo!")
 }
 

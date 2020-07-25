@@ -70,9 +70,8 @@
     background-color: #FEFEFE;
     width: 97%;
     display: flex;
-
     margin: auto;
-
+    margin-bottom: 5px;
 }
 
 .content-magias .grimorio{
@@ -100,11 +99,9 @@
 }
 .habi div{
     background-color: #a0ffa8;
-    white-space: nowrap; 
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-bottom: -9px;
-    height: calc(100% - 8px);
 }
 
 .habi .poder{
@@ -113,7 +110,6 @@
     border-radius: 0%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7px;
     text-align: center;
     font-size: 13.333px;
 }

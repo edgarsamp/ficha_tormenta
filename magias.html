@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-3">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Tormenta</title>
+
+    <link rel="stylesheet" href="styles/magias-main.css">
+    <link rel="stylesheet" href="styles/tabelas.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="ficha-magias">
+        <header>
+            <div class="cabecario">
+                <div class="nome" onclick="saveMagias()">
+                </div>
+                <div class="pm" >
+                    <h1>999</h1>
+                    <h2>999</h2>
+                </div>
+                <div class="cd" title="10 + metade do nível do personagem + modificador do atributo-chave da magia">
+                    <h2>CD</h2>
+                    <h1>999</h1>
+                </div>
+            </div>
+        </header>
+        <div class="opcoes">
+            <div class="suas" onclick="renderizarSuas()"><h3>Suas magias</h3></div>
+            <div class="todas" onclick="renderizarTodas()"><h3>Todas as magias</h3></div>
+        </div>
+
+        <div class="listaMagias">
+        </div>
+    
+    </div>
+
+    <div id="modal" class="hide">
+        <div class="janela">
+            <div class="magia-desc">
+                <img src="/assents/magias/Abençoar Alimentos.jpg" alt="">
+            </div>
+            <div class="close" >
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+      
+    <script src="magias.js"></script>
+    <script src="cabecarioMagias.js"></script>
+</body>
+</html>

@@ -69,11 +69,12 @@
 .inv .dinheiro .mochila{
     height: 65px;
     width: 70px;
+
     background: url(../assents/mochila.svg) no-repeat;
     background-size: contain;
+
     margin: auto;
     margin-left: 10px;
-    margin-top: 2px;
 }
 
 .inv .dinheiro h1{
@@ -119,8 +120,9 @@
 .inv .itens{
     height: calc(95% - 56px);
     width: 95%;
+
     margin: auto;
-    margin-top: -12px;
+    margin-top: -6px;
 }
 
 .item{

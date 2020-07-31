@@ -9,6 +9,13 @@ body{
     background-color: #8395A7;
 }
 
+a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
 .ficha{
     min-height: 95vh;
     width: 95vw;

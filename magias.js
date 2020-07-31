@@ -225,3 +225,4 @@ function abrirMagia(i){
 
 
 preencheCabecario()
+renderizarSuas()

@@ -208,12 +208,15 @@ body{
     display: flex;
 }
 
+
 #modal .magia-desc{
     min-height: 200px;
     min-width: 200px;
     background-color: white;
     border: 5px solid #ffffff;
     border-radius: 8px;
+
+    
 
 }
 #modal .close {
@@ -226,4 +229,9 @@ body{
 
     background: url("../assents/x.svg") no-repeat;
     background-size: cover;
+}
+
+
+#modal .magia-desc img{
+    content:url("/assents/magias/Alarme.png");
 }

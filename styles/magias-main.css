@@ -233,5 +233,5 @@ body{
 
 
 #modal .magia-desc img{
-    content:url("/assents/magias/Alarme.png");
+    content:url("./magias/Alarme.png");
 }

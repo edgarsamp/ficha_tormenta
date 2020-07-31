@@ -219,7 +219,7 @@ function remv(id){
 function abrirMagia(i){
     const magiaImgDiv = document.querySelector("#modal .magia-desc")
 
-    magiaImgDiv.innerHTML = `<img src="/assents/magias/${todasMagiasSimpli[i].nome}.png" alt="${todasMagiasSimpli[i].nome}">`
+    magiaImgDiv.innerHTML = `<img src="./assents/magias/${todasMagiasSimpli[i].nome}.png" alt="${todasMagiasSimpli[i].nome}">`
     modal.classList.remove("hide")
 }
 

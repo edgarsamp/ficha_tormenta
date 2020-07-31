@@ -15,6 +15,8 @@ personagem = JSON.parse(localStorage.getItem("personagem")) || {
     armadura: 14,
     deslo: "9 m",
 
+    cd:0,
+
     atributos: [20,13,17,9,6,13],
     modificadores: [5,1,3,-1,-2,1],
     pericias:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -42,6 +44,7 @@ personagem = JSON.parse(localStorage.getItem("personagem")) || {
 
 function saveFotoPersonagem(){
     savePersonagem()
+    console.log("oi")
     window.alert("Personagem salvo!")
 }
 

@@ -22,14 +22,14 @@ function alterarXp(){
     renderizar()
 }
 function alterarPvAtual(){
-    var altPvAtual = parseInt(prompt("Quanto sua vida atual alterou?"))
+    var altPvAtual = parseInt(prompt("Quanto sua vida atual aumentou?"))
     if (altPvAtual > -Infinity) {
         personagem.pv_atual += altPvAtual
     }
     renderizar()
 }
 function alterarPvMax(){
-    var altPvMax = parseInt(prompt("Quanto sua vida máxima alterou?"))
+    var altPvMax = parseInt(prompt("Quanto sua vida máxima aumentou?"))
     if (altPvMax > -Infinity) {
         personagem.pv_max += altPvMax
     }
